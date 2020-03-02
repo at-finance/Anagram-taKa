@@ -16,7 +16,6 @@ public class AnagramKata {
         Integer totalNumber = 0;
         while (s.hasNext()) {
             totalNumber += checksWordsForAnagram(s.next(), word);
-            //System.out.println(s.next());
         }
         s.close();
         return totalNumber;
@@ -48,10 +47,4 @@ public class AnagramKata {
 
 
 
-
-
-    //don't need this
-//    public String readsEachWordIndividually() throws FileNotFoundException {
-//        return s.next();
-//    }
 }

@@ -6,8 +6,10 @@ import org.junit.Test;
 import java.io.FileNotFoundException;
 
 public class AnagramKataTest {
+    AnagramKata anagramKata;
 @Before
-public void setUp(){
+public void setUp() throws FileNotFoundException {
+ anagramKata = new AnagramKata("wordlist.txt");
 }
 
     @Test
